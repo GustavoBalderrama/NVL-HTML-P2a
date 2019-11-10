@@ -68,8 +68,7 @@
     <input type="radio" name="comunicación" value="Bueno">
     <input type="radio" name="comunicación" value="Regular">
     <input type="radio" name="comunicación" value="Pésimo">
-    </select>
-
+    
   </div>
 </form>
 </body>

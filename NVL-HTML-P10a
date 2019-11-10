@@ -1,0 +1,76 @@
+<html> 
+
+  <head>
+    
+    <title> Practica NVL-HTML-P10a </title>
+  
+  </head>
+<body>
+<form method="post" action="post" > 
+  
+  <div>
+  
+    <label for="CP">Código postal:</label>
+    <input id="CP" type="text" >
+  
+  </div>
+
+  <div>
+    
+    <label for="satisfaccion"> Nivel De Satisfacción:</label>
+    <select id="satisfaccion" >
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+
+  </div>
+
+  <div>
+    
+    <label for="email">Correo Electrónico:</label>
+    <input id="email" type="text" >
+
+  </div>
+
+  <div>
+    
+    <label for="positivo">Puntos Positivos:</label>
+    <textarea id="positivo"></textarea>
+
+  </div>
+
+  <div>
+    
+    <label for="negativo">Puntos Negativos:</label>
+    <textarea id="negativo"></textarea>
+
+  </div>
+
+  <div>
+    
+    <label for="tiempo"> Tiempo De Entrega:</label>
+    <select id="tiempo" >
+      <option value="excelente">Excelente</option>
+      <option value="bueno">Bueno</option>
+      <option value="regular">Regular</option>
+      <option value="pésimo">Pésimo</option>
+    </select>
+
+  </div>
+
+  <div>
+    
+    <label for="comunicación"> Comunicación Con El Vendedor:</label>
+    <input type="radio" name="comunicación" value="Excelente">
+    <input type="radio" name="comunicación" value="Bueno">
+    <input type="radio" name="comunicación" value="Regular">
+    <input type="radio" name="comunicación" value="Pésimo">
+    </select>
+
+  </div>
+</form>
+</body>
+</html>

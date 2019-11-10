@@ -70,6 +70,7 @@
     <input type="radio" name="comunicación" value="Pésimo">
     
   </div>
+  <input type="submit" value="Enviar">
 </form>
 </body>
 </html>
